@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763C6FC32568845F00E78C77 /* Wildebeest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C6FC22568845F00E78C77 /* Wildebeest.swift */; };
+		763C6FC6256884C800E78C77 /* Wolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C6FC5256884C800E78C77 /* Wolf.swift */; };
+		763C6FC9256885FC00E78C77 /* AnimalWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763C6FC8256885FC00E78C77 /* AnimalWorld.swift */; };
 		7673173325672B5A00C26744 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673173225672B5A00C26744 /* main.swift */; };
+		7673173C25672CFC00C26744 /* ContinentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673173B25672CFC00C26744 /* ContinentFactory.swift */; };
+		7673174025672F0A00C26744 /* AfricaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673173F25672F0A00C26744 /* AfricaFactory.swift */; };
+		7673174525672F7A00C26744 /* Herbivore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673174425672F7A00C26744 /* Herbivore.swift */; };
+		7673174825672FA300C26744 /* Carnivore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673174725672FA300C26744 /* Carnivore.swift */; };
+		7673174B2567303100C26744 /* AmericanFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673174A2567303100C26744 /* AmericanFactory.swift */; };
+		767317532567333C00C26744 /* Bison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767317522567333C00C26744 /* Bison.swift */; };
+		767317562567336800C26744 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767317552567336800C26744 /* Lion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		763C6FC22568845F00E78C77 /* Wildebeest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wildebeest.swift; sourceTree = "<group>"; };
+		763C6FC5256884C800E78C77 /* Wolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wolf.swift; sourceTree = "<group>"; };
+		763C6FC8256885FC00E78C77 /* AnimalWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalWorld.swift; sourceTree = "<group>"; };
 		7673172F25672B5A00C26744 /* Creational Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Creational Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7673173225672B5A00C26744 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7673173B25672CFC00C26744 /* ContinentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentFactory.swift; sourceTree = "<group>"; };
+		7673173F25672F0A00C26744 /* AfricaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaFactory.swift; sourceTree = "<group>"; };
+		7673174425672F7A00C26744 /* Herbivore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herbivore.swift; sourceTree = "<group>"; };
+		7673174725672FA300C26744 /* Carnivore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carnivore.swift; sourceTree = "<group>"; };
+		7673174A2567303100C26744 /* AmericanFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanFactory.swift; sourceTree = "<group>"; };
+		767317522567333C00C26744 /* Bison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bison.swift; sourceTree = "<group>"; };
+		767317552567336800C26744 /* Lion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		763C6FCB25688E9B00E78C77 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		7673172625672B5A00C26744 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +84,36 @@
 		7673173125672B5A00C26744 /* Creational Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				76C2CCE4257071F30083BD9B /* Builder */,
+				763C6FCB25688E9B00E78C77 /* Factory */,
+				7673173A25672B6700C26744 /* Abstract Factory */,
 				7673173225672B5A00C26744 /* main.swift */,
 			);
 			path = "Creational Patterns";
+			sourceTree = "<group>";
+		};
+		7673173A25672B6700C26744 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7673173B25672CFC00C26744 /* ContinentFactory.swift */,
+				7673173F25672F0A00C26744 /* AfricaFactory.swift */,
+				7673174425672F7A00C26744 /* Herbivore.swift */,
+				7673174725672FA300C26744 /* Carnivore.swift */,
+				7673174A2567303100C26744 /* AmericanFactory.swift */,
+				767317522567333C00C26744 /* Bison.swift */,
+				767317552567336800C26744 /* Lion.swift */,
+				763C6FC22568845F00E78C77 /* Wildebeest.swift */,
+				763C6FC5256884C800E78C77 /* Wolf.swift */,
+				763C6FC8256885FC00E78C77 /* AnimalWorld.swift */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		76C2CCE4257071F30083BD9B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +173,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7673174525672F7A00C26744 /* Herbivore.swift in Sources */,
 				7673173325672B5A00C26744 /* main.swift in Sources */,
+				763C6FC9256885FC00E78C77 /* AnimalWorld.swift in Sources */,
+				7673174B2567303100C26744 /* AmericanFactory.swift in Sources */,
+				763C6FC6256884C800E78C77 /* Wolf.swift in Sources */,
+				7673174025672F0A00C26744 /* AfricaFactory.swift in Sources */,
+				767317532567333C00C26744 /* Bison.swift in Sources */,
+				7673174825672FA300C26744 /* Carnivore.swift in Sources */,
+				763C6FC32568845F00E78C77 /* Wildebeest.swift in Sources */,
+				7673173C25672CFC00C26744 /* ContinentFactory.swift in Sources */,
+				767317562567336800C26744 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let africanAnimals = AnimalWorld(factory: AfricaFactory())
+let americanAnimals = AnimalWorld(factory:  AmericanFactory())
+
+africanAnimals.runFoodChain()
+americanAnimals.runFoodChain()
 
