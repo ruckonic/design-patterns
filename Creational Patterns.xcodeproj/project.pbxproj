@@ -18,6 +18,11 @@
 		7673174B2567303100C26744 /* AmericanFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7673174A2567303100C26744 /* AmericanFactory.swift */; };
 		767317532567333C00C26744 /* Bison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767317522567333C00C26744 /* Bison.swift */; };
 		767317562567336800C26744 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767317552567336800C26744 /* Lion.swift */; };
+		767D36892570AB1B002EE884 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D36882570AB1B002EE884 /* Director.swift */; };
+		767D368C2570AB95002EE884 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D368B2570AB95002EE884 /* Car.swift */; };
+		767D368F2570ABB6002EE884 /* Manual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D368E2570ABB6002EE884 /* Manual.swift */; };
+		767D36922570ABC8002EE884 /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767D36912570ABC8002EE884 /* CarBuilder.swift */; };
+		76C2CCE6257073270083BD9B /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2CCE5257073270083BD9B /* Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +50,11 @@
 		7673174A2567303100C26744 /* AmericanFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanFactory.swift; sourceTree = "<group>"; };
 		767317522567333C00C26744 /* Bison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bison.swift; sourceTree = "<group>"; };
 		767317552567336800C26744 /* Lion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		767D36882570AB1B002EE884 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		767D368B2570AB95002EE884 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		767D368E2570ABB6002EE884 /* Manual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manual.swift; sourceTree = "<group>"; };
+		767D36912570ABC8002EE884 /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
+		76C2CCE5257073270083BD9B /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,11 @@
 		76C2CCE4257071F30083BD9B /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				76C2CCE5257073270083BD9B /* Builder.swift */,
+				767D36882570AB1B002EE884 /* Director.swift */,
+				767D368B2570AB95002EE884 /* Car.swift */,
+				767D368E2570ABB6002EE884 /* Manual.swift */,
+				767D36912570ABC8002EE884 /* CarBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -174,16 +189,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7673174525672F7A00C26744 /* Herbivore.swift in Sources */,
+				767D36892570AB1B002EE884 /* Director.swift in Sources */,
 				7673173325672B5A00C26744 /* main.swift in Sources */,
 				763C6FC9256885FC00E78C77 /* AnimalWorld.swift in Sources */,
 				7673174B2567303100C26744 /* AmericanFactory.swift in Sources */,
 				763C6FC6256884C800E78C77 /* Wolf.swift in Sources */,
 				7673174025672F0A00C26744 /* AfricaFactory.swift in Sources */,
 				767317532567333C00C26744 /* Bison.swift in Sources */,
+				767D36922570ABC8002EE884 /* CarBuilder.swift in Sources */,
 				7673174825672FA300C26744 /* Carnivore.swift in Sources */,
 				763C6FC32568845F00E78C77 /* Wildebeest.swift in Sources */,
 				7673173C25672CFC00C26744 /* ContinentFactory.swift in Sources */,
+				767D368F2570ABB6002EE884 /* Manual.swift in Sources */,
 				767317562567336800C26744 /* Lion.swift in Sources */,
+				767D368C2570AB95002EE884 /* Car.swift in Sources */,
+				76C2CCE6257073270083BD9B /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
